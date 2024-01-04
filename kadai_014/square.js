@@ -1,5 +1,5 @@
-const Argument = (number) => {
-  console.log(number * number);
+const Argument = (num) => {
+  return num * num;
 }
 
-Argument(100);
+console.log(Argument(100))
